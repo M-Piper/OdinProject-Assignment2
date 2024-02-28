@@ -4,29 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="full-container">
-  <div class="header" id="header">Hi there, Morgan Oakley</div>
-  
+  <div class="header" id="header">
+    <div class="header-grid">
+      <div class="search-form">
+        <button type="submit" class="search-button"><i class="mdi mdi-magnify"></i></button>
+        <input type="search" name="search" placeholder="Search..." class="search-input">
+      </div>
+    
+    <div class="user-info">
+      <div class="user-greeting">
+        <p>Hi there,</p>
+        <div class="user-name">
+          <img src="icon.png" alt="User Icon" class="user-icon">
+          Morgan Oakley
+        </div>
+      </div>
+    </div>
+      
+      <div class="notification">
+        <i class="mdi mdi-bell-ring-outline"></i>
+        <img src="icon.png" alt="User Icon" class="user-icon">
+        <span class="small-user-name">Morgan Oakley</span>
+      </div>
+      <div class="action-buttons">
+        <button class="action-button">New</button>
+        <button class="action-button">Upload</button>
+        <button class="action-button">Share</button>
+      </div>
+    </div>
+  </div>
+ 
   <div class="sidebar">
-    <p>Dashboard</p>
+ 
+    <i class="mdi-view-dashboard"></i>Dashboard    
     <ul>
-      <li>Home</li>
-      <li>Profile</li>
-      <li>Messages</li>
-      <li>History</li>
-      <li>Tasks</li>
-      <li>Community</li>
+      <li><i class="mdi-home"></i> Home</li>
+      <li><i class="mdi-card-account-details"></i>Profile</li>
+      <li><i class="mdi-message"></i>Messages</li>
+      <li><i class="mdi-clock-time-four"></i>History</li>
+      <li><i class="mdi-note-multiple"></i>Tasks</li>
+      <li><i class="mdi-account-group"></i>Community</li>
     </ul>
     <ul>
-      <li>Settings</li>
-      <li>Support</li>
-      <li>Privaacy</li>
+      <li><i class="mdi-cog"></i>Settings</li>
+      <li><i class="mdi-help-box"></i>Support</li>
+      <li><i class="mdi-shield-check"></i>Privacy</li>
     </ul>
   </div>
   
