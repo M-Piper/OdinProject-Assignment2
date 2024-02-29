@@ -44,38 +44,50 @@
  
   <div class="sidebar">
  
-    <i class="mdi-view-dashboard"></i>Dashboard    
+    <h1><i class="mdi mdi-view-dashboard"></i>Dashboard</h1>
     <ul>
-      <li><i class="mdi-home"></i> Home</li>
-      <li><i class="mdi-card-account-details"></i>Profile</li>
-      <li><i class="mdi-message"></i>Messages</li>
-      <li><i class="mdi-clock-time-four"></i>History</li>
-      <li><i class="mdi-note-multiple"></i>Tasks</li>
-      <li><i class="mdi-account-group"></i>Community</li>
+      <li><i class="mdi mdi-home"></i> Home</li>
+      <li><i class="mdi mdi-card-account-details"></i>Profile</li>
+      <li><i class="mdi mdi-message"></i>Messages</li>
+      <li><i class="mdi mdi-clock-time-four"></i>History</li>
+      <li><i class="mdi mdi-note-multiple"></i>Tasks</li>
+      <li><i class="mdi mdi-account-group"></i>Community</li>
     </ul>
     <ul>
-      <li><i class="mdi-cog"></i>Settings</li>
-      <li><i class="mdi-help-box"></i>Support</li>
-      <li><i class="mdi-shield-check"></i>Privacy</li>
+      <li><i class="mdi mdi-cog"></i>Settings</li>
+      <li><i class="mdi mdi-help-box"></i>Support</li>
+      <li><i class="mdi mdi-shield-check"></i>Privacy</li>
     </ul>
   </div>
   
   <div class="main">
     <div class="project-grid">
-      <div class="project-header" id="header">Your Projects</div>
-      <div class="projects">project1</div>
-      <div class="projects">project2</div>
-      <div class="projects">project3</div>
-      <div class="projects">project4</div>
-      <div class="projects">project5</div>
-      <div class="projects">project6</div>
+      <div class="projects-header" id="header">Your Projects</div>
+      <div class="projects">
+        <div class="project-box">project1</div>
+      </div>
+      <div class="projects">
+        <div class="project-box">project2</div>
+      </div>
+      <div class="projects">
+        <div class="project-box">project3</div>
+      </div>
+      <div class="projects">
+        <div class="project-box">project4</div>
+      </div>
+      <div class="projects">
+        <div class="project-box">project5</div>
+      </div>
+      <div class="projects">
+        <div class="project-box">project6</div>
+      </div>
     </div>
   
     <div class="announcements-grid">
-      <div class="announcements">Header1 test</div>
+      <div class="announcements-header" id="header">Announcements</div>
       <div class="announcements">content for the first header here.</div>
       <div class="announcements">Header2 test</div>
-      <div class="announcements">content for the second header here.</div>
+      <div class="announcements" id="header">Trending</div>
     </div>
   </div>
 </div>
