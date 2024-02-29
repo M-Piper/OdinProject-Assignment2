@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <div class="full-container">
   <div class="header" id="header">
@@ -29,67 +30,150 @@
       </div>
     </div>
       
-      <div class="notification">
-        <i class="mdi mdi-bell-ring-outline"></i>
-        <img src="icon.png" alt="User Icon" class="user-icon">
-        <span class="small-user-name">Morgan Oakley</span>
-      </div>
-      <div class="action-buttons">
-        <button class="action-button">New</button>
-        <button class="action-button">Upload</button>
-        <button class="action-button">Share</button>
-      </div>
+    <div class="notification">
+      <i class="mdi mdi-bell-ring-outline"></i>
+      <img src="icon.png" alt="User Icon" class="user-icon">
+      <span class="small-user-name">Morgan Oakley</span>
+    </div>
+    
+    <div class="action-buttons">
+      <button class="action-button">New</button>
+      <button class="action-button">Upload</button>
+      <button class="action-button">Share</button>
     </div>
   </div>
+</div>
  
-  <div class="sidebar">
- 
-    <h1><i class="mdi mdi-view-dashboard"></i>Dashboard</h1>
-    <ul>
-      <li><i class="mdi mdi-home"></i> Home</li>
-      <li><i class="mdi mdi-card-account-details"></i>Profile</li>
-      <li><i class="mdi mdi-message"></i>Messages</li>
-      <li><i class="mdi mdi-clock-time-four"></i>History</li>
-      <li><i class="mdi mdi-note-multiple"></i>Tasks</li>
-      <li><i class="mdi mdi-account-group"></i>Community</li>
-    </ul>
-    <ul>
-      <li><i class="mdi mdi-cog"></i>Settings</li>
-      <li><i class="mdi mdi-help-box"></i>Support</li>
-      <li><i class="mdi mdi-shield-check"></i>Privacy</li>
-    </ul>
-  </div>
+<div class="sidebar">
+  <h1><i class="mdi mdi-view-dashboard"></i>Dashboard</h1>
+  <ul>
+    <li><i class="mdi mdi-home"></i> Home</li>
+    <li><i class="mdi mdi-card-account-details"></i>Profile</li>
+    <li><i class="mdi mdi-message"></i>Messages</li>
+    <li><i class="mdi mdi-clock-time-four"></i>History</li>
+    <li><i class="mdi mdi-note-multiple"></i>Tasks</li>
+    <li><i class="mdi mdi-account-group"></i>Community</li>
+  </ul>
   
-  <div class="main">
-    <div class="project-grid">
-      <div class="projects-header" id="header">Your Projects</div>
-      <div class="projects">
-        <div class="project-box">project1</div>
-      </div>
-      <div class="projects">
-        <div class="project-box">project2</div>
-      </div>
-      <div class="projects">
-        <div class="project-box">project3</div>
-      </div>
-      <div class="projects">
-        <div class="project-box">project4</div>
-      </div>
-      <div class="projects">
-        <div class="project-box">project5</div>
-      </div>
-      <div class="projects">
-        <div class="project-box">project6</div>
+  <ul>
+    <li><i class="mdi mdi-cog"></i>Settings</li>
+    <li><i class="mdi mdi-help-box"></i>Support</li>
+    <li><i class="mdi mdi-shield-check"></i>Privacy</li>
+  </ul>
+</div>
+  
+<div class="main">
+  <div class="project-grid">
+    <div class="projects-header" id="header">Your Projects
+    </div>
+
+    <!--project 1 box-->
+    <div class="project-box">
+      <div class="project-content">
+        <div class="yellow-line">
+        </div>
+        <div class="project-name">Project <b>1</b>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo quis arcu convallis eleifend.</p>
+        <p>Suspendisse potenti. Proin consectetur efficitur tortor, eu mollis enim congue nec.</p>
+        <div class="mdi-icons">
+          <i class="mdi mdi-star-plus-outline"></i>
+          <i class="mdi mdi-eye-plus-outline"></i>
+          <i class="mdi mdi-share-variant-outline"></i>
+        </div>
       </div>
     </div>
-  
-    <div class="announcements-grid">
-      <div class="announcements-header" id="header">Announcements</div>
-      <div class="announcements">content for the first header here.</div>
-      <div class="announcements">Header2 test</div>
-      <div class="announcements" id="header">Trending</div>
+
+    <!--project 2 box-->
+    <div class="project-box">
+      <div class="project-content">
+        <div class="yellow-line"></div>
+        <div class="project-name">Project <b>2</b></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo quis arcu convallis eleifend.</p>
+        <p>Suspendisse potenti. Proin consectetur efficitur tortor, eu mollis enim congue nec.</p>
+        <div class="mdi-icons">
+          <i class="mdi mdi-star-plus-outline"></i>
+          <i class="mdi mdi-eye-plus-outline"></i>
+          <i class="mdi mdi-share-variant-outline"></i>
+        </div>
+      </div>
     </div>
+
+    <!--project 3 box-->    
+    <div class="project-box">
+      <div class="project-content">
+        <div class="yellow-line"></div>
+        <div class="project-name">Project <b>3</b></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo quis arcu convallis eleifend.</p>
+        <p>Suspendisse potenti. Proin consectetur efficitur tortor, eu mollis enim congue nec.</p>
+        <div class="mdi-icons">
+          <i class="mdi mdi-star-plus-outline"></i>
+          <i class="mdi mdi-eye-plus-outline"></i>
+          <i class="mdi mdi-share-variant-outline"></i>
+        </div>
+      </div>
+    </div>
+
+    <!--project 4 box-->
+    <div class="project-box">
+      <div class="project-content">
+        <div class="yellow-line">
+        </div>
+        <div class="project-name">Project <b>4</b>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo quis arcu convallis eleifend.</p>
+        <p>Suspendisse potenti. Proin consectetur efficitur tortor, eu mollis enim congue nec.</p>
+        <div class="mdi-icons">
+          <i class="mdi mdi-star-plus-outline"></i>
+          <i class="mdi mdi-eye-plus-outline"></i>
+          <i class="mdi mdi-share-variant-outline"></i>
+        </div>
+      </div>
+    </div>
+
+    <!--project 5 box-->    
+    <div class="project-box">
+      <div class="project-content">
+        <div class="yellow-line">
+        </div>
+        <div class="project-name">Project <b>5</b>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo quis arcu convallis eleifend.</p>
+        <p>Suspendisse potenti. Proin consectetur efficitur tortor, eu mollis enim congue nec.</p>
+        <div class="mdi-icons">
+          <i class="mdi mdi-star-plus-outline"></i>
+          <i class="mdi mdi-eye-plus-outline"></i>
+          <i class="mdi mdi-share-variant-outline"></i>
+        </div>
+      </div>
+    </div>
+    
+    <!--project 6 box-->
+    <div class="project-box">
+      <div class="project-content">
+        <div class="yellow-line">
+        </div>
+        <div class="project-name">Project <b>6</b>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo quis arcu convallis eleifend.</p>
+        <p>Suspendisse potenti. Proin consectetur efficitur tortor, eu mollis enim congue nec.</p>
+        <div class="mdi-icons">
+          <i class="mdi mdi-star-plus-outline"></i>
+          <i class="mdi mdi-eye-plus-outline"></i>
+          <i class="mdi mdi-share-variant-outline"></i>
+        </div>
+      </div>
+    </div>
+ </div>
+   
+  <div class="announcements-grid">
+    <div class="announcements-header" id="header">Announcements</div>
+    <div class="announcements">content for the first header here.</div>
+    <div class="announcements">Header2 test</div>
+    <div class="announcements" id="header">Trending</div>
   </div>
+</div>
+
 </div>
 </body>
 </html>
